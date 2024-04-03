@@ -36,6 +36,11 @@
         width: 2vw;
 
       }
+      @include mobile{
+        img{
+          width: 5vw;
+        }
+      }
     }
   }
 }
